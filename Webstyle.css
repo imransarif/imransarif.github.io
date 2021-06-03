@@ -1,0 +1,50 @@
+html {
+    -ms-flex: 1;
+    -moz-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    scroll-behavior: smooth;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: helvetica;
+}
+
+th {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px;
+}
+
+.w3-sidebar {
+    width: 120px;
+    background: black;
+    font-family: verdana;
+}
+
+.img:hover {
+    border: 1px solid white;
+}
+
+.copyright {
+    font-family: times;
+    text-align: right;
+}
+
+#main {
+    margin-left: 120px;
+}
+
+/* Remove margins from "page content" on small screens */
+
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-left: 0;
+    }
+}
